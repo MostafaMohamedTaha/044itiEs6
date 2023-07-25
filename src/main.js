@@ -52,9 +52,9 @@ let spread = () => {
 
     document.getElementById('spread').textContent = sum(...numbers);
 }
-let object={name:"mostafa",university:"cairo",faculty:"eng",finalGrade:99}
+let object = { name: "mostafa", university: "cairo", faculty: "eng", finalGrade: 99 }
 let literal = () => {
-    document.getElementById('literal').textContent =`
+    document.getElementById('literal').textContent = `
         name : ${object.name}
         university : ${object.university}
         faculty : ${object.faculty}
